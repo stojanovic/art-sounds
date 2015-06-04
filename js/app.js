@@ -26,6 +26,7 @@ request.onreadystatechange = function() {
     
     background.style.backgroundImage = 'url(' + art.image + ')'
     painting.src = art.image
+    painting.crossOrigin = 'Anonymous'
 
     var imgData
     painting.addEventListener('load', function() {
